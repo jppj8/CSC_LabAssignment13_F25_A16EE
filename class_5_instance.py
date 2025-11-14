@@ -20,6 +20,13 @@ class WashingMachine:
 
 
 def test():
+    # Create two instances of WashingMachine
+    machine1 = WashingMachine(15, "Bob")
+    machine2 = WashingMachine(12, "Alice")
+    
+    # Return both instances (machine1 first)
+    return machine1, machine2
+
     # TODO: Create two instances of the class WashingMachine
     # instance "machine1" would send two arguments: int value 15, and string "Bob"
     # instance "machine2" would send two arguments: int value 12, and string "Alice"
