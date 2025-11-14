@@ -20,6 +20,9 @@ class WashingMachine:
 
 
 def test():
-    # TODO: create one instance of class WashingMachine, send arguments: int value 13 and String value "Eve"
-    # TODO: call method "set_mode()" and send argument "Spin"
-    # TODO: return the instance
+    # create one instance of class WashingMachine
+    machine = WashingMachine(13, "Eve")
+    # call method "set_mode()" with argument "Spin"
+    machine.set_mode("Spin")
+    # return the instance
+    return machine
