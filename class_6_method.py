@@ -26,3 +26,7 @@ def test():
     machine.set_mode("Spin")
     # return the instance
     return machine
+m = test()
+print(m.owner)     # Eve
+print(m.capacity)  # 13
+print(m.mode)      # Spin

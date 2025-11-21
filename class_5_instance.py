@@ -31,3 +31,6 @@ def test():
     # instance "machine1" would send two arguments: int value 15, and string "Bob"
     # instance "machine2" would send two arguments: int value 12, and string "Alice"
     # return two instances with one return statement so that I can use two variables to accept the return (machine1 would be returned first)
+m1, m2 = test()
+print(m1.owner, m1.capacity)  # Bob 15
+print(m2.owner, m2.capacity)  # Alice 12
